@@ -2,10 +2,20 @@
     --Celeste:#137CA1;
     --Turquesa:#2EAB9E;
     --Morado:#622b99;
+    --Negro-Espacial:#0B0D12;
+    --Azul-Oscuro:#1B2A41;
+    --Blanco-Frio:#D9E2EC;
+    --Gris-Claro:#D6D6D6;
+    --Azul-Hielo:#CFE8FF;
 }
 body{
     font-size: 16px;
     background-image:linear-gradient(to right , var(--Celeste) 0% ,var(--Turquesa)40%,var(--Morado)100% );
+}
+
+body.pg1{
+    font-size: 16px;
+    background-image:linear-gradient(to right , var(--Negro-Espacial) 0% ,var(--Azul-Oscuro)40%,var(--Blanco-Frio)100% );
 }
 
 .titulo{
@@ -15,6 +25,16 @@ body{
     font-weight: 700;
     font-style: normal;
     text-shadow: 2px 2px 10px black;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 2px 2px 10px var(--Gris-Claro);
+    color: var(--Gris-Claro);
 }
 figure{
     max-width: 400px;
@@ -65,6 +85,15 @@ span{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.pggo{
+    color: var(--Gris-Claro);
+}
+
+.pgah{
+    color:var(--Azul-Hielo);
+}
+
 #referencia{
     display:grid;
     justify-content: center;
