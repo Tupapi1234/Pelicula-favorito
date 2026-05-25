@@ -31,11 +31,19 @@ figure img{
 figure figcaption{
     text-align: center;
 }
-.Informacion{
-    display:grid;
+    
+.Informacion {
+    display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    gap: 50px;
+    margin-bottom: 15px
 }
+
+.Informacion section div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 h2{
     text-align: center;
     font-size: 1.5rem;
@@ -44,10 +52,10 @@ h2{
     font-style:unset;
     margin-bottom: 10px;
     text-shadow: 2px 2px 5px black;
-    letter-spacing: 2
+    letter-spacing: 2px;
 
 }
-p{
+p{  
     text-align: justify;
     font-size: 1rem;
     line-height: 1.6;
@@ -98,7 +106,7 @@ span{
     overflow: hidden;
     width: 0;
     opacity: 0;
-    transition: width 0.3s ease, opcity 0.3s ease;
+    transition: width 0.3s ease, opacity 0.3s ease;
 }
 .m-contenedero:hover .top_peli{
     width: 200px;
@@ -114,4 +122,8 @@ span{
 .m-item:hover{
     background-color: #137CA1;
     color: whitesmoke;
+}
+.body_Piratas{
+    font-size: 16px;
+    background-image:linear-gradient(to bottom, #E8D8A9 ,#A67C00 , #5A3E2B );
 }
