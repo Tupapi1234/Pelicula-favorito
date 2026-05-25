@@ -1,7 +1,3 @@
-// =============================================
-// Menú hamburguesa: abrir/cerrar al hacer clic
-// =============================================
-
 document.addEventListener('DOMContentLoaded', function () {
 
     const menuIcono = document.querySelector('.m-icono');
