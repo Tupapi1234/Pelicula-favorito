@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pelicula favorita</title>
+
+    <link rel="preload" href="css/Normalize.css" as="styles">
+    <link rel="stylesheet" href="css/Normalize.css">
+
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="pg1">
+    <header class="titulo1">
+        <h1>Interestelar</h1>
+    </header>
+    <section>   
+        <nav class="menu-m">
+            <div class="m-contenedero">
+                <div class="m-icono">
+                    <img src="css/iconos/menu.svg"/>
+                </div>
+                <div class="top_peli">
+                    <a href="Interestelar.html" class="m-item">Interestelar</a>
+                    <a href="Piratas.html" class="m-item">Piratas del Caribe</a>
+                </div>
+            </div>
+        </nav>  
+        <figure>
+            <img src="imagenes/interestelar.jpg" alt="Pelicula el cadaver de la novia"/>
+            <figcaption class="pgah">Se estreno el 26 de Octubre del 2014</figcaption>
+        </figure>
+    </section>
+    <main>
+        <div class="Informacion">
+            <section class="pggo">
+                <h2>Descripción de la Película</h2>
+                <div>
+                    <p>Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento de garantizar la supervivencia de la humanidad, enfrentándose a fenomenos que jamas han visto y poder superarlos para cumplir su misión.</p>
+                </div>
+            </section>
+            <section class="pgah">
+                <h2>Datos de la película</h2>
+                <div>
+                    <p><span>Título:</span> Interestelar</p>
+                    <p><span>Género:</span> Ciencia Ficción</p>
+                    <p><span>Año de estreno:</span> 2014</p>
+                    <p><span>Director:</span>Christopher Nolan</p>
+                    <p><span>Duración:</span> 2 horas y 49 minutos</p>
+                    <p><span>Productora:</span> Syncopy, Lynda Obst Productions, Legendary Pictures, Paramount Pictures y Warner Bros. Pictures.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Actores principales (voces)</h2>
+                <div>
+                    <p>Matthew McConaughey "Cooper"</p>
+                    <p>Anne Hathaway "Brand"</p>
+                    <p>Michael Caine "Professor Brand"</p>
+                    <p>Jessica Chastain "Murph"</p>
+                </div>
+            </section>
+        </div>
+        <section id = "referencia">
+            <h2>Referencias</h2>
+            <a class="referencia-imdb" href = "https://www.imdb.com/es-es/title/tt0816692/?ref_=nv_sr_srsg_1_tt_5_nm_1_in_1_q_Inte" target="_blank"> 
+                ver en IMDB
+            </a>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
